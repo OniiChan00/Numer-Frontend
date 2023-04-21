@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Nav_Bar from '../Nav_Bar'
 import { useState } from 'react'
 import './Style/Bisection.css';
-import axios from 'axios';
+import axios from 'axios'
 import { Table } from 'antd';
 import { Line } from 'react-chartjs-2';
 import Chart from 'chart.js/auto';

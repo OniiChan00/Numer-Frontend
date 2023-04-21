@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Home from './components/Home';  
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import {  Route, Routes} from 'react-router-dom';
 import Bisection from './components/Root_of_Equations/Bisection';
 import FalsePosition from './components/Root_of_Equations/FalsePosition';
 import OnePoint from './components/Root_of_Equations/OnePoint';

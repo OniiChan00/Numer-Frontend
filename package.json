@@ -30,7 +30,7 @@
   "scripts": {
     "front": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "eject": "react-scripts eject",
     "back": "nodemon ./src/server",
     "start": "concurrently --kill-others \"npm run front\" \"npm run back\" "
@@ -57,5 +57,6 @@
   "devDependencies": {
     "@types/swagger-jsdoc": "^6.0.0",
     "concurrently": "^6.5.1"
-  }
+  },
+  "type": "module"
 }
